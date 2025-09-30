@@ -38,6 +38,31 @@ int main(){
     printf("We are going to perform Logical operations on %d and %d\n",a,b);
     printf("Logical AND(&&): %d\n",a&&b);
     printf("Logical OR(||): %d\n",a||b);
-    printf("Logical NOT(!): %d\n\n\n\n",!a);
+    printf("Logical NOT(!): %d\n\n\n\n",!a); // It is only for one number
+    //Assignment Operations 
+    printf("We are going to perform Assignment operations on %d and %d\n",a,b);
+    int c=a; // Simple Assignment
+    printf("Simple Assignment(=): %d\n",c);
+    c+=b; // c=c+b  
+    printf("Add AND(+=): %d\n",c);
+    c-=b; // c=c-b
+    printf("Subtract AND(-=): %d\n",c);
+    c*=b; // c=c*b
+    printf("Multiply AND(*=): %d\n",c);
+    c/=b; // c=c/b
+    printf("Divide AND(/=): %d\n",c);
+    c%=b; // c=c%b
+    printf("Modulus AND(%%=): %d\n",c);
+    c<<=1; // c=c<<1
+    printf("Left Shift AND(<<=): %d\n",c);
+    c>>=1; // c=c>>1
+    printf("Right Shift AND(>>=): %d\n",c);
+    c&=b; // c=c&b
+    printf("Bitwise AND AND(&=): %d\n",c);
+    c|=b; // c=c|b
+    printf("Bitwise OR AND(|=): %d\n",c);
+    c^=b; // c=c^b
+    printf("Bitwise XOR AND(^=): %d\n",c);
+    
     return 0;
 }
